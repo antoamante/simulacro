@@ -1,0 +1,228 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+.link {
+    display: flex;
+}
+
+.navegador {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header h2 {
+    color: rgb(223, 40, 168);
+    padding-left: 10px;
+}
+
+.navegador div a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(223, 40, 168)
+}
+
+
+@media (max-width:800px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px) {
+    .link {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+.niño {
+    background-image: url(imagenes/1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+
+}
+
+.niño button {
+    color: white;
+    background-color: #e848bb;
+    padding: 10px;
+    font-size: x-large;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+#mujer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.textomujer {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+@media (max-width:800px) {
+    .imagenmujer {
+        display: none;
+    }
+}
+
+
+#mujer img {
+    height: 300px;
+    width: 250px;
+}
+
+#nuestros {
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+#nuestros h2 {
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+.caja-grande {
+
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+
+}
+
+.caja-chica {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(37, 35, 35);
+    text-align: center;
+    border-radius: 10%;
+
+}
+
+.img1 {
+    background-image: url(imagenes/3.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.caja-chica button {
+    color: white;
+    background-color: #e848bb;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 10px;
+    height: 60px;
+
+}
+
+.textocaja {
+    padding: 20px;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.img2 {
+    background-image: url(imagenes/4.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+.img3 {
+    background-image: url(imagenes/5.jpg);
+    padding: 20px;
+    border-radius: 20px;
+    font-size: larger;
+}
+
+#caracteristicas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+ul {
+    font-size: large;
+    font-weight: bold;
+    padding: 100px;
+
+}
+
+li {
+    padding: 10px;
+}
+
+@media (max-width:800px) {
+    .imagenfinal {
+        display: none;
+    }
+}
+
+
+.final {
+    background-color: #e848bb;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.final button {
+    color: white;
+    background-color: #c22495;
+    padding: 10px;
+    font-size: x-large;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    padding-top: 90px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: larger;
+}
